@@ -70,7 +70,4 @@ Sensitive credentials like API keys are handled securely using environment varia
 
 ---
 
-## ✍️ Author
-
-Made with love & learning by **Amir Sohel**  
 [GitHub](https://github.com/amir9117) • [LinkedIn](https://www.linkedin.com/in/amirsohel1)
