@@ -5,7 +5,6 @@ import streamlit as st
 from dotenv import load_dotenv
 
 load_dotenv(".env")
-# os.environ["GROQ_API_KEY"] = "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"
 api_key = os.getenv("GROQ_API_KEY")
 os.environ["GROQ_API_KEY"] = api_key
 
