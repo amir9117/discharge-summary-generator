@@ -49,8 +49,8 @@ Feel free to try it with the following sample entries:
 ---
 
 ## 🚀 Launch the App
+<a href="https://amir9117-discharge-summary-generator-app-efjwsy.streamlit.app/" target="_blank">Try the Discharge Summary Generator</a>
 
-👉 [Try the Discharge Summary Generator](https://amir9117-discharge-summary-generator-app-efjwsy.streamlit.app/)
 
 ---
 
