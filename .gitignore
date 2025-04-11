@@ -2,3 +2,7 @@
 __pycache__/
 .env
 .vscode/
+.venv/
+venv/
+discharge_summary_env/
+
