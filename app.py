@@ -5,10 +5,7 @@ import streamlit as st
 from dotenv import load_dotenv
 
 load_dotenv(".env")
-# api_key = st.secrets.get("GROQ_API_KEY")
-# api_key = os.getenv("GROQ_API_KEY")
 api_key = st.secrets.get("GROQ_API_KEY") or os.getenv("GROQ_API_KEY")
-# os.environ["GROQ_API_KEY"] = api_key
 
 # Load patient data from the JSON file
 def load_patient_data(filepath="patients_data.json"):
