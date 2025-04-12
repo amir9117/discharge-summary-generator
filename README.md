@@ -24,16 +24,13 @@ Feel free to try it with the following sample entries:
 
 | Name               | Patient ID |
 |--------------------|------------|
-| Safwan Mondal      | 0001       |
-| Laraib Noorien     | 0002       |
-| Suman Ghosh        | 0003       |
-| Kubra Ekram        | 0004       |
-| Suvodip Mojumdar   | 0005       |
-| Pranisha Saho      | 0006       |
-| Amir Sohel         | 0007       |
-| Ritipa Das         | 0008       |
-| Aman               | 0009       |
-| Rima               | 0010       |
+| Safwan             | 0001       |
+| Laraib             | 0002       |
+| Pranisha           | 0003       |
+| Kubra              | 0004       |
+| Hors Saw           | 0005       |
+| Suman              | 0006       |
+| Amir               | 0007       |
 
 ---
 
