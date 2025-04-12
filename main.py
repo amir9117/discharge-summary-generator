@@ -13,7 +13,7 @@ else:
     api_key = st.secrets.get("GROQ_API_KEY")
 
 
-load_dotenv(".env")
+# load_dotenv(".env")
 # api_key = os.getenv("GROQ_API_KEY")
 # api_key = st.secrets.get("GROQ_API_KEY") or os.getenv("GROQ_API_KEY")
 
