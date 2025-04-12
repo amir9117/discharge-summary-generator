@@ -8,22 +8,18 @@ from fpdf import FPDF
 load_dotenv()
 api_key = None
 
-# Try streamlit secrets if they exist
+# For the deployed web
 try:
     api_key = st.secrets.get("GROQ_API_KEY")
 except Exception:
     pass  # Ignore all errors (like if streamlit isn't installed, or no secrets)
 
-# Fallback to .env
+# For local system fallback to .env 
 if not api_key:
-    api_key = os.getenv("GROQ_API_KEY")
+    api_key = os.getenv("GROQ_API_KEY") #If you runnig locally make sure to put your api key inside .env file
 
 
 
-
-# load_dotenv(".env")
-# api_key = os.getenv("GROQ_API_KEY")
-# # api_key = st.secrets.get("GROQ_API_KEY") or os.getenv("GROQ_API_KEY")
 
 # Load patient data from the JSON file
 def load_patient_data(filepath="patients_data.json"):
