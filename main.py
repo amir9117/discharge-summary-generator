@@ -6,16 +6,10 @@ from dotenv import load_dotenv
 from fpdf import FPDF
 
 
-if os.path.exists(".env"):
-    load_dotenv(".env")
-    api_key = os.getenv("GROQ_API_KEY")
-else:
-    api_key = st.secrets.get("GROQ_API_KEY")
-
 
 # load_dotenv(".env")
 # api_key = os.getenv("GROQ_API_KEY")
-# api_key = st.secrets.get("GROQ_API_KEY") or os.getenv("GROQ_API_KEY")
+api_key = st.secrets.get("GROQ_API_KEY") or os.getenv("GROQ_API_KEY")
 
 # Load patient data from the JSON file
 def load_patient_data(filepath="patients_data.json"):
