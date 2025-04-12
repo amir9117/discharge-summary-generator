@@ -27,7 +27,7 @@ Feel free to try it with the following sample entries:
 | Safwan             | 0001       |
 | Laraib             | 0002       |
 | Pranisha           | 0003       |
-| Kubra              | 0004       |
+| Badass Ravi Kumar  | 0004       |
 | Hors Saw           | 0005       |
 | Suman              | 0006       |
 | Amir               | 0007       |
