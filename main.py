@@ -50,7 +50,7 @@ def generate_discharge_pdf(patient_data, summary):
     pdf.cell(200, 10, "S+ Care Hospital", ln=True, align='C')
     pdf.set_font("Arial", '', 12)
     pdf.cell(200, 8, "Beside Amir Bank, Opp Mongolia Society, Newtown, Kolkata - 700135", ln=True, align='C')
-    pdf.cell(200, 8, "Mobile: 70010 31640  Telephone: 90642 50540", ln=True, align='C')
+    pdf.cell(200, 8, "Mobile: 70010 00000  Telephone: 90600 00000", ln=True, align='C')
 
     # Add horizontal line separator
     pdf.ln(10)  # small vertical space before line
