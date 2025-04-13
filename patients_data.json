@@ -224,7 +224,7 @@
     "id": "0007",
     "name": "Amir",
     "age": 38,
-    "gender": "Female",
+    "gender": "Male",
     "admission_date": "2025-03-11",
     "discharge_date": "2025-03-16",
     "primary_consultant_name": "Dr. Neelam Agarwal",
